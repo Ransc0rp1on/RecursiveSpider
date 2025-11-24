@@ -22,5 +22,20 @@ RecursiveSpider is ideal for:
 - 📦 Works on Windows, Linux, and macOS  
 
 ---
+Usage:
 
+Basic usage:
 
+```python download_script.py http://example.com/files```
+
+With custom output directory:
+
+```python download_script.py http://example.com/files -o ./my_downloads```
+
+With slower requests (to avoid detection):
+
+```python download_script.py http://example.com/files -d 2```
+
+With single-threaded download:
+
+```python download_script.py http://example.com/files -t 1```
