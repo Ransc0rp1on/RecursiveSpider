@@ -1,5 +1,5 @@
 # 🕷️ RecursiveSpider
-A fast, multi-threaded **recursive directory downloader** that automatically crawls open web directory listings (Apache/Nginx/Lighttpd) and downloads all files while preserving the original folder structure.
+A fast, multi-threaded **recursive directory downloader** that automatically crawls open web directory listings (Apache/Nginx/Lighttpd) and downloads all files while preserving the original folder structure. It also handles the SSL cert validations
 
 RecursiveSpider is ideal for:
 - Web security assessments  
